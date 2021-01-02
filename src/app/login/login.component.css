@@ -1,0 +1,78 @@
+.body-container {
+  background-image: linear-gradient(#6baace, #264783);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.carousel-item>div {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#phone input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+/* ::ng-deep .mat-focused .mat-form-field-empty.mat-form-field-label {
+  color: #00316E !important;
+  font-size: 18px;
+} */
+
+/* ::ng-deep .mat-focused .mat-form-field-label {
+  color: #00316E !important;
+  font-size: 18px;
+} */
+
+/*change color of underline*/
+/* ::ng-deep.mat-form-field-underline {
+  background-color: #00316E !important;
+} */
+
+/*change color of underline when focused*/
+/* ::ng-deep.mat-form-field-ripple {
+  background-color: #00316E !important;
+  ;
+} */
+
+/* Font size of input elements entered */
+/* ::ng-deep.mat-form-field input {
+  color: #00316E !important;
+  font-size: 16px;
+} */
+
+/* ::ng-deep .mat-select-panel {
+  background-color:#8bacce
+} */
+
+/* ::ng-deep .mat-option-text {
+  font-size:16px;
+  color:white;
+}
+
+::ng-deep .mat-select-value-text{
+  color: #00316E
+} */
+
+
+/* these rules are used to make sure in mobile devices, tab panes are not all the same height (for example 'forgot' pane is not as tall as 'signup' pane) */
+
+@media (max-width: 1199.98px) {
+  .tab-sliding .tab-pane:not(.active) {
+    max-height: 0 !important;
+  }
+
+  .tab-sliding .tab-pane.active {
+    min-height: 80vh;
+    max-height: none !important;
+  }
+}
