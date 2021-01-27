@@ -33,18 +33,34 @@
               "src/styles.css",
               "./src/assets/css/ace-font.css",
               "./src/assets/css/ace.css",
+              "./src/assets/css/ace-slim.css",
               "./node_modules/bootstrap/dist/css/bootstrap.css",
               "./node_modules/@fortawesome/fontawesome-free/css/fontawesome.css",
               "./node_modules/@fortawesome/fontawesome-free/css/regular.css",
               "./node_modules/@fortawesome/fontawesome-free/css/brands.css",
-              "./node_modules/@fortawesome/fontawesome-free/css/solid.css"
+              "./node_modules/@fortawesome/fontawesome-free/css/solid.css",
+              "./node_modules/fullcalendar/main.css",
+              "./src/assets/views/pages/horizontal/@page-style.css",
+              "./src/assets/views/pages/dashboard/@page-style.css"
+
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/views/pages/table-bootstrap/@page-script.js",
-              "src/assets/test.js"
+              "src/assets/test.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/popper.js/dist/umd/popper.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/chart.js/dist/Chart.js",
+              "./node_modules/fullcalendar/main.js",
+              "./src/assets/views/pages/horizontal/@page-script.js",
+              "./src/assets/views/pages/dashboard/@page-script.js",
+              "src/assets/views/pages/horizontal/@page-script.js"
+
+              
+
             ]
           },
           "configurations": {

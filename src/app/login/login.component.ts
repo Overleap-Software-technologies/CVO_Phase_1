@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-login',
@@ -14,9 +16,14 @@ export class LoginComponent implements OnInit {
   public selectedInfo = "";
   userType = "physician";
   navigationType = 'login';
-  constructor() { }
+
+  constructor( private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  login(){
+    this.router.navigateByUrl('Admin');
   }
 
   onSignInSubmit(signin: NgForm) {
